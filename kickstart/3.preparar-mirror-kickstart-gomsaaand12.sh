@@ -59,8 +59,8 @@ part / --fstype="xfs" --grow --size=1
 %end
 
 %post --log=/root/ks-post-user.log
-useradd usuarioalma
-echo "usuarioalma:abc123." | chpasswd
+useradd gomsaaand12
+echo "gomsaaand12:abc123." | chpasswd
 %end
 EOF
 
